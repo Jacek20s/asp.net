@@ -25,12 +25,15 @@
             <td colspan="1" class="auto-style1">Imie</td>
             <td>
                 <asp:TextBox ID="TextBoxImie" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="TextBoxImie" ErrorMessage="Podaj Imie">*</asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TextBoxImie" ErrorMessage="Podaj prawidłowe imie" ValidationExpression="^[a-zA-Z]{3}$">*</asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style1">Nazwisko</td>
             <td>
                 <asp:TextBox ID="TextBoxNazwisko" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="TextBoxNazwisko" ErrorMessage="Podaj Nazwisko">*</asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -47,24 +50,29 @@
                     <asp:ListItem>Zachodniopomorskie</asp:ListItem>
                     <asp:ListItem>Podkarpackie</asp:ListItem>
                 </asp:DropDownList>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator10" runat="server" ControlToValidate="DropDownListWojewództwo" ErrorMessage="Podaj województwo">*</asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style1">Miasto</td>
             <td>
                 <asp:TextBox ID="TextBoxMiasto" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator11" runat="server" ControlToValidate="TextBoxMiasto" ErrorMessage="Podaj MIasto">*</asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style1">Ulica</td>
             <td>
                 <asp:TextBox ID="TextBoxUlica" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ControlToValidate="TextBoxUlica" ErrorMessage="Podaj Ulicę">*</asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td class="auto-style1">E-mail</td>
             <td>
                 <asp:TextBox ID="TextBoxEmail" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ControlToValidate="TextBoxEmail" ErrorMessage="Podaj Email">*</asp:RequiredFieldValidator>
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TextBoxEmail" ErrorMessage="Podaj prawidłowy email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">*</asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
@@ -75,7 +83,9 @@
         </tr>
         <tr>
             <td class="auto-style1">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+            </td>
         </tr>
         <tr>
             <td class="auto-style2">
