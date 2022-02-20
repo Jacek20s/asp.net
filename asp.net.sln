@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PierwszyProjekt", "Pierwszy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrakSeparacji", "BrakSeparacji\BrakSeparacji.csproj", "{FAC66498-36BD-4902-A272-32DE721731D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProstyFormularz", "ProstyFormularz\ProstyFormularz.csproj", "{051272FF-01A3-4C12-B148-B1249EC4368A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FAC66498-36BD-4902-A272-32DE721731D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAC66498-36BD-4902-A272-32DE721731D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAC66498-36BD-4902-A272-32DE721731D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051272FF-01A3-4C12-B148-B1249EC4368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051272FF-01A3-4C12-B148-B1249EC4368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051272FF-01A3-4C12-B148-B1249EC4368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051272FF-01A3-4C12-B148-B1249EC4368A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
