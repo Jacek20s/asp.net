@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrakSeparacji", "BrakSepara
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProstyFormularz", "ProstyFormularz\ProstyFormularz.csproj", "{051272FF-01A3-4C12-B148-B1249EC4368A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontrolki", "Kontrolki\Kontrolki.csproj", "{3951109C-18BB-46AA-B44F-A79AC70A62B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{051272FF-01A3-4C12-B148-B1249EC4368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{051272FF-01A3-4C12-B148-B1249EC4368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{051272FF-01A3-4C12-B148-B1249EC4368A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3951109C-18BB-46AA-B44F-A79AC70A62B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3951109C-18BB-46AA-B44F-A79AC70A62B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3951109C-18BB-46AA-B44F-A79AC70A62B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3951109C-18BB-46AA-B44F-A79AC70A62B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
