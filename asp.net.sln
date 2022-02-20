@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KontrolkiUzytkownika", "Kon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dane", "Dane\Dane.csproj", "{A38E6AA3-D031-44A6-8109-9A62A64048F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{03F224A4-CD1B-402D-AC65-E556F0D65240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{15FD629F-BC24-4F5A-88DD-921F4F89C227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{A38E6AA3-D031-44A6-8109-9A62A64048F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A38E6AA3-D031-44A6-8109-9A62A64048F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A38E6AA3-D031-44A6-8109-9A62A64048F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F224A4-CD1B-402D-AC65-E556F0D65240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F224A4-CD1B-402D-AC65-E556F0D65240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F224A4-CD1B-402D-AC65-E556F0D65240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F224A4-CD1B-402D-AC65-E556F0D65240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FD629F-BC24-4F5A-88DD-921F4F89C227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FD629F-BC24-4F5A-88DD-921F4F89C227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FD629F-BC24-4F5A-88DD-921F4F89C227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FD629F-BC24-4F5A-88DD-921F4F89C227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

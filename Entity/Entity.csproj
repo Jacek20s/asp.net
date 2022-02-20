@@ -8,16 +8,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A38E6AA3-D031-44A6-8109-9A62A64048F1}</ProjectGuid>
+    <ProjectGuid>{03F224A4-CD1B-402D-AC65-E556F0D65240}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dane</RootNamespace>
-    <AssemblyName>Dane</AssemblyName>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44310</IISExpressSSLPort>
+    <IISExpressSSLPort>44304</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -51,6 +51,9 @@
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -79,6 +82,16 @@
       <DependentUpon>NaszaBaza.mdf</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
+    <Content Include="ModelProdukty.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelProdukty.Context.cs</LastGenOutput>
+      <DependentUpon>ModelProdukty.edmx</DependentUpon>
+    </Content>
+    <Content Include="ModelProdukty.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelProdukty.edmx</DependentUpon>
+      <LastGenOutput>ModelProdukty.cs</LastGenOutput>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,9 +102,34 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ModelProdukty.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelProdukty.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelProdukty.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelProdukty.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModelProdukty.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelProdukty.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Produkty.cs">
+      <DependentUpon>ModelProdukty.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EntityDeploy Include="ModelProdukty.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelProdukty.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="ModelProdukty.edmx.diagram">
+      <DependentUpon>ModelProdukty.edmx</DependentUpon>
+    </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -100,7 +138,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -114,9 +154,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>53195</DevelopmentServerPort>
+          <DevelopmentServerPort>54047</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44310/</IISUrl>
+          <IISUrl>https://localhost:44304/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
