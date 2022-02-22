@@ -25,6 +25,50 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jquery", "Jquery\Jquery.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronyWzorcowe", "StronyWzorcowe\StronyWzorcowe.csproj", "{F9BE12C7-658E-4DCF-B5E7-B76A8982D7C8}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Formularze1", "Formularze1\", "{5494DC90-84D9-47C2-A0CA-A83E1AB85BBA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49969"
+		Debug.AspNetCompiler.PhysicalPath = "Formularze1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49969\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49969"
+		Release.AspNetCompiler.PhysicalPath = "Formularze1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49969\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49969"
+		SlnRelativePath = "Formularze1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DaneDynamiczne", "DaneDynamiczne\", "{58968288-BB42-41B2-A51B-466F74FE247A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61219"
+		Debug.AspNetCompiler.PhysicalPath = "DaneDynamiczne\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61219\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61219"
+		Release.AspNetCompiler.PhysicalPath = "DaneDynamiczne\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61219\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61219"
+		SlnRelativePath = "DaneDynamiczne\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +119,14 @@ Global
 		{F9BE12C7-658E-4DCF-B5E7-B76A8982D7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9BE12C7-658E-4DCF-B5E7-B76A8982D7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9BE12C7-658E-4DCF-B5E7-B76A8982D7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5494DC90-84D9-47C2-A0CA-A83E1AB85BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5494DC90-84D9-47C2-A0CA-A83E1AB85BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5494DC90-84D9-47C2-A0CA-A83E1AB85BBA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5494DC90-84D9-47C2-A0CA-A83E1AB85BBA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{58968288-BB42-41B2-A51B-466F74FE247A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58968288-BB42-41B2-A51B-466F74FE247A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58968288-BB42-41B2-A51B-466F74FE247A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{58968288-BB42-41B2-A51B-466F74FE247A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
