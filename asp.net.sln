@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{15FD629F-BC24-4F5A-88DD-921F4F89C227}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skrypty", "Skrypty\Skrypty.csproj", "{C3D4E8CE-929D-4F7C-90DC-BBAE086B522E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{15FD629F-BC24-4F5A-88DD-921F4F89C227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15FD629F-BC24-4F5A-88DD-921F4F89C227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15FD629F-BC24-4F5A-88DD-921F4F89C227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D4E8CE-929D-4F7C-90DC-BBAE086B522E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D4E8CE-929D-4F7C-90DC-BBAE086B522E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D4E8CE-929D-4F7C-90DC-BBAE086B522E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D4E8CE-929D-4F7C-90DC-BBAE086B522E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
