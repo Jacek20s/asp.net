@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Drukuj.Master.cs" Inherits="StronyWzorcowe.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="naglowek">
+        <h1>
+                Bla Bla
+        </h1>
+        <h2>
+            Asp.Net - kurs
+        </h2>
+    </div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div id="stopka">
+        <p>&copy; Kurs Asp.Net</p>
+    </div>
+</body>
+</html>
